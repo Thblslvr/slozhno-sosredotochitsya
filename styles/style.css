@@ -319,11 +319,6 @@
     left: 20px;
   }
 
-  .section-content__list {
-    margin-left: 13px;
-  }
-
-  /* Для первого заголовка "Многозадачность" */
   .section__expln
     .section-content__article-item:first-child
     .article-item__title {
@@ -331,7 +326,6 @@
     margin-bottom: 10px;
   }
 
-  /* Для второго заголовка "Дофамин" */
   .section__expln
     .section-content__article-item:last-child
     .article-item__title {
