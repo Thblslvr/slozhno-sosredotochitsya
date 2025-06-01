@@ -54,7 +54,10 @@
   font-style: normal;
   line-height: 1.38;
   text-transform: uppercase;
+  visibility:var(--rec-vis);
+
 }
+
 
 .decorative-marker::after {
   content: "";
@@ -67,6 +70,7 @@
   box-shadow: 0 0 4px 2px var(--bg-minor);
   fill: var(--bg-minor);
   background-color: var(--bg-minor);
+  /* visibility:var(--rec-vis); */
 }
 
 .header {
