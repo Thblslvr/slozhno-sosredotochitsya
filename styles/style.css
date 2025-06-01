@@ -34,7 +34,7 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  bottom: 18px;
+  bottom: 12px;
   left: 10px;
   display: flex;
   width: 25px;
@@ -78,7 +78,7 @@
   display: grid;
   grid-template-rows: 0 min-content min-content min-content;
   height: 100vh;
-  margin-bottom: 30px;
+  margin-bottom: 39px;
   padding-top: 10px;
   min-block-size: 668px;
 }
@@ -132,7 +132,7 @@
 .header__title {
   justify-self: flex-start;
   align-self: center;
-  margin-top: 54px;
+  margin-top: 68px;
   margin-bottom: 54px;
   color: var(--title-color);
   font-family: var(--font);
@@ -353,14 +353,14 @@
   }
 
   .header__title {
-    margin-top: 158px;
+    margin-top: 180px;
     margin-left: -15px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__subtitle {
     width: 50%;
-    margin-top: 105px;
+    margin-top: 100px;
   }
 
   .header__theme-menu {
@@ -477,16 +477,14 @@
 
   .header__title {
     --title-size: 157px;
-    margin-top: 254px;
+    margin-top: 276px;
     font-size: var(--title-size);
   }
 
   .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
-    margin-top: 17px;
-
-    margin-right: 42px;
+    margin-top: 21px;
   }
 
   .header__theme-menu-list {
@@ -497,7 +495,7 @@
   }
 
   .header__subtitle {
-    margin-top: 65px;
+    margin-top: 59px;
   }
 
   .section__expln .section-content__list,
