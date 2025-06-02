@@ -44,6 +44,7 @@
 }
 
 .decorative-marker {
+  visibility: var(--rec-vis);
   display: flex;
   justify-content: end;
   padding-right: 9px;
@@ -53,7 +54,6 @@
   font-size: var(--text-size);
   line-height: 1.38;
   text-transform: uppercase;
-  visibility: var(--rec-vis);
 }
 
 .decorative-marker::after {
@@ -103,7 +103,7 @@
 .header__theme-menu-button_active {
   border: 1px solid var(--border-color);
   cursor: pointer;
-   pointer-events: none; 
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
@@ -182,13 +182,13 @@
 .section-content__list {
   display: flex;
   flex-direction: column;
-  gap: 20px;  
+  gap: 20px;
 }
 
 .section-content__article-item {
   display: flex;
   flex-direction: column;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .article-item__title {
@@ -210,11 +210,11 @@
   background-color: var(--bg-minor);
 }
 
-.section__expln .section-content__list, .section__wht .section-content__list,
-.section__hw .section-content__list{
+.section__expln .section-content__list,
+.section__wht .section-content__list,
+.section__hw .section-content__list {
   padding-top: 20px;
 }
-
 
 .article-item__content {
   padding-right: 5px;
@@ -376,10 +376,8 @@
     grid-column-start: 2;
   }
 
-  .section__wht .section-content__list{
-    
+  .section__wht .section-content__list {
     padding-top: 20px;
-
   }
 
   .section__imgs {

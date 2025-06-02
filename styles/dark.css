@@ -27,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-   :root  {
+  :root {
     --title-clr: #db00ff;
     --text-main: #ff0070;
     --text-minor: #f1b2ce;

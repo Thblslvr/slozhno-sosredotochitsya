@@ -28,7 +28,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-   :root  {
+  :root {
     --title-clr: #ffc2e6;
     --text-main: #353430;
     --text-minor: #353430;
