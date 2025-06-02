@@ -25,3 +25,20 @@
   --border-color: #ff0070;
   --border-color-hover: #ff007066;
 }
+
+@media (prefers-color-scheme: dark) {
+   :root  {
+    --title-clr: #db00ff;
+    --text-main: #ff0070;
+    --text-minor: #f1b2ce;
+    --text-dflt: #000028;
+    --bg-main: #000028;
+    --bg-minor: #ff0070;
+    --shadow-main: #ff0070;
+    --bg-image: url("../images/cover-image-dark.png");
+    --hover-color: rgba(255, 0, 112, 0.4);
+    --border-color: #ff0070;
+    --border-color-hover: #ff007066;
+    --rec-vis: visible;
+  }
+}
