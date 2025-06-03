@@ -308,7 +308,7 @@
   }
 
   .header {
-    gap: 168px;
+    gap: 164px;
     padding: 20px 20px 20px 5px;
     min-block-size: 1024px;
   }
@@ -316,6 +316,7 @@
   .header__title {
     padding-bottom: 0;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    justify-self: start;
   }
 
   .header__subtitle {
@@ -324,10 +325,6 @@
 
   .header__top-row {
     gap: 146px;
-  }
-
-  .header__title {
-    justify-self: self-start;
   }
 
   .section__list {
@@ -430,9 +427,6 @@
 
   .header__theme-menu {
     margin: 0 auto;
-  }
-
-  .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
   }
