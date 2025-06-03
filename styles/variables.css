@@ -12,7 +12,7 @@
   --shadow-main: #ff0070;
   --bg-image: url("../images/cover-image-dark.png");
   --hover-color: rgba(255, 0, 112, 0.4);
-  --font: "IBM Plex Mono", monospace;
+  --font: "IBM Plex Mono", monospace, serif;
   --text-size: 18px;
   --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-weight-normal: 400;
