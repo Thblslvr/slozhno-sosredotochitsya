@@ -11,7 +11,7 @@
   */
 }
 
-:root.theme-light {
+.theme-light .page {
   --title-clr: #ffc2e6;
   --text-main: #353430;
   --text-minor: #353430;
