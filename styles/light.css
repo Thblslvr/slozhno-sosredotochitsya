@@ -11,20 +11,19 @@
   */
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  --title-clr: #ffc2e6; /* accent-heading-clr */
-  --text-main: #353430; /* menu-clr, decorative-bracket-clr */
-  --text-minor: #353430; /* text-clr */
-  --text-dflt: #353430; /* heading-clr */
+:root.theme-light {
+  --title-clr: #ffc2e6;
+  --text-main: #353430;
+  --text-minor: #353430;
+  --text-dflt: #353430;
   --bg-main: #fff1f7;
-  --bg-minor: #ff8dcb; /* accent-clr */
-  --shadow-main: #ff8dcb; /* accent-clr */
-  --bg-image: url("../images/cover-image-light.png"); /* cover-image */
-  --hover-color: rgba(50, 49, 45, 0.4); /* button-hover-clr */
-  --border-color: #353430; /* decorative-bracket-clr */
-  --border-color-hover: rgba(50, 49, 45, 0.4); /* button-hover-clr */
-  --rec-vis: hidden;
+  --bg-minor: #ff8dcb;
+  --shadow-main: #ff8dcb;
+  --bg-image: url("../images/cover-image-light.png");
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --border-color: #353430;
+  --border-color-hover: rgba(50, 49, 45, 0.4);
+  --rec-vis: hidden; /* Добавлено для управления видимостью REC */
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,6 +39,6 @@
     --hover-color: rgba(50, 49, 45, 0.4);
     --border-color: #353430;
     --border-color-hover: rgba(50, 49, 45, 0.4);
-    --rec-vis: hidden;
+    --rec-vis: hidden; /* Добавлено для управления видимостью REC */
   }
 }

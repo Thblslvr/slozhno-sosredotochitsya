@@ -11,8 +11,7 @@
   */
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+:root.theme-dark {
   --title-clr: #db00ff;
   --text-main: #ff0070;
   --text-minor: #f1b2ce;
@@ -24,6 +23,7 @@
   --hover-color: rgba(255, 0, 112, 0.4);
   --border-color: #ff0070;
   --border-color-hover: #ff007066;
+  --rec-vis: visible; /* Добавлено для управления видимостью REC */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +39,6 @@
     --hover-color: rgba(255, 0, 112, 0.4);
     --border-color: #ff0070;
     --border-color-hover: #ff007066;
-    --rec-vis: visible;
+    --rec-vis: visible; /* Добавлено для управления видимостью REC */
   }
 }
