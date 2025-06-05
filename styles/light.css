@@ -23,7 +23,7 @@
   --hover-color: rgba(50, 49, 45, 0.4);
   --border-color: #353430;
   --border-color-hover: rgba(50, 49, 45, 0.4);
-  --rec-vis: hidden; 
+  --rec-vis: hidden;
 }
 
 @media (prefers-color-scheme: light) {

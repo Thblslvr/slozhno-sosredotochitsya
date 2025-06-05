@@ -23,7 +23,7 @@
   --hover-color: rgba(255, 0, 112, 0.4);
   --border-color: #ff0070;
   --border-color-hover: #ff007066;
-  --rec-vis: visible; /* Добавлено для управления видимостью REC */
+  --rec-vis: visible;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +39,6 @@
     --hover-color: rgba(255, 0, 112, 0.4);
     --border-color: #ff0070;
     --border-color-hover: #ff007066;
-    --rec-vis: visible; /* Добавлено для управления видимостью REC */
+    --rec-vis: visible;
   }
 }
